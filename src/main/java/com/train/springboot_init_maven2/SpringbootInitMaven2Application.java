@@ -14,6 +14,7 @@ public class SpringbootInitMaven2Application {
         Jackson2CborDecoder bean = run.getBean(Jackson2CborDecoder.class);
         Jackson2CborDecoder bean2 = run.getBean(Jackson2CborDecoder.class);
         Jackson2CborDecoder bean3 = run.getBean(Jackson2CborDecoder.class);
+        Jackson2CborDecoder bean4 = run.getBean(Jackson2CborDecoder.class);
 
         System.out.println(redisTemplate);
     }
