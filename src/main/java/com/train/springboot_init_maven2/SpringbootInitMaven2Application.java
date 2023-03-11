@@ -12,6 +12,9 @@ public class SpringbootInitMaven2Application {
         ConfigurableApplicationContext run = SpringApplication.run(SpringbootInitMaven2Application.class, args);
         Object redisTemplate = run.getBean("redisTemplate");
         Jackson2CborDecoder bean = run.getBean(Jackson2CborDecoder.class);
+        Jackson2CborDecoder bean2 = run.getBean(Jackson2CborDecoder.class);
+        Jackson2CborDecoder bean3 = run.getBean(Jackson2CborDecoder.class);
+
         System.out.println(redisTemplate);
     }
 
